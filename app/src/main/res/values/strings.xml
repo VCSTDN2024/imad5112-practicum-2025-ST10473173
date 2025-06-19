@@ -3,7 +3,8 @@
     <string name="tasty_music">Tasty Music</string>
     <string name="start">START</string>
     <string name="exit">EXIT</string>
-    <string name="add_to_playaylist">Add to Playaylist</string>
+    <string name="add_to_playaylist">Add to Playlist</string>
     <string name="close_app">Close App</string>
     <string name="display_songs">Display songs</string>
+    <string name="list_of_songs_will_appear_here">List of Songs will Appear here</string>
 </resources>
