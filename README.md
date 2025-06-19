@@ -24,10 +24,15 @@ The purpose of this app is to help people
 Key Features 
 
 - Multiple activity navigation
+  
 - App exit functionality
+  
 - Display songs information
+  
 - Back to Main screen functionality
+  
 - Reset functionality
+  
 - Calculates Rating
 
 
@@ -93,6 +98,7 @@ Step 3: A list of songs will appear in the textBox.
 Step 4: you can choose to add it to playlist.
 
 Step 5: you can return to the main screen.
+
 Step 6: You can use the reset button to clear the information.
 
 
@@ -103,7 +109,9 @@ Figure. 2. Second Screen
 
 
 The display button will show you all the songs you can choose from:
+
 Step 1: Users can press “Display song” to see the songs available.
+
 Step 2: user can input the song title in the edit text to add to playlist.
 
 
@@ -120,6 +128,7 @@ Figure. 3.Display Songs
 When you insert a song Then press average rating, the app will calculate the rating for you:
 
 Step 1: User can enter song title in edit text
+
 Step 2: User can the press average rating to receive rating of the song 
 
 Figure. 4.Average rating
@@ -141,6 +150,7 @@ Figure. 5. Full details Button
 The add to playlist button adds songs to the playlist based on what song title the user has entered:
 
 Step 1: First enter title of song 
+
 Step 2: the press the button to add to playlist
 
 Figure. 6.Add to playlist
