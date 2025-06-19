@@ -7,4 +7,7 @@
     <string name="close_app">Close App</string>
     <string name="display_songs">Display songs</string>
     <string name="list_of_songs_will_appear_here">List of Songs will Appear here</string>
+    <string name="enter_song_title_here">Enter song title here</string>
+    <string name="return_to_main">Return to Main</string>
+    <string name="reset">Reset</string>
 </resources>

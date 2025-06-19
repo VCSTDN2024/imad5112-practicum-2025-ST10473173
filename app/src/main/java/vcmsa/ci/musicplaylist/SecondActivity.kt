@@ -1,8 +1,11 @@
 package vcmsa.ci.musicplaylist
 
 import android.annotation.SuppressLint
+import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
+import android.widget.EditText
+import android.widget.Toast
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
@@ -19,9 +22,15 @@ class SecondActivity : AppCompatActivity() {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
         }
-        val returnBtn : Button = findViewById(R.id.returnBtn) // when te return button is pressed, it will take you back to main screen
-        val addBtn : Button = findViewById(R.id.addBtn)  // when the "add to playlist button is pressed this will add the song to your playlist
-        val exitBtn : Button = findViewById(R.id.exitBtn) // when the exit button is pressed the app will completely close
+        val displayBtn: Button =
+            findViewById(R.id.displayBtn) // when button is pressed it will display songs artist name, rating comments
+        val returnBtn: Button =
+            findViewById(R.id.returnBtn) // when te return button is pressed, it will take you back to main screen
+        val addBtn: Button =
+            findViewById(R.id.addBtn)  // when the "add to playlist button is pressed this will add the song to your playlist
+        val clearBtn: Button = findViewById(R.id.clearBtn) //
+        val songTxt: EditText = findViewById(R.id.songTxt)
+        val listTxt: EditText = findViewById(R.id.listTxt)
 
 
 
@@ -38,16 +47,24 @@ class SecondActivity : AppCompatActivity() {
 
 
 
+        displayBtn.setOnClickListener {
+            if (!answerSelected) {
+                Toast.makeText(this, "Please select an answer", Toast.LENGTH_SHORT).show()
+                return@setOnClickListener
+            }
 
 
+            returnBtn.setOnClickListener {
+                val intent = Intent(this, MainActivity::class.java)
+                startActivity(intent)
+            }
 
-
-
-
-
-        exitBtn.setOnClickListener {
-            finishAffinity() }
+            clearBtn.setOnClickListener {
+                songTxt.text?.clear()
+                listTxt.text = ""
+            }
+        }
     }
-    }
+}
 
 

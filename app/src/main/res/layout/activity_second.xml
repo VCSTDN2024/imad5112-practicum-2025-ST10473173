@@ -22,30 +22,39 @@
         app:layout_constraintVertical_bias="0.0" />
 
     <EditText
-        android:id="@+id/editTextText2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:id="@+id/songTxt"
+        android:layout_width="201dp"
+        android:layout_height="60dp"
+        android:autofillHints="Enter song title here"
         android:ems="10"
-        android:hint="Enter song title here"
+        android:hint="@string/enter_song_title_here"
         android:inputType="text"
         android:text=""
         android:textAlignment="center"
         android:textColorHint="#0000FF"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="100dp"
-        tools:layout_editor_absoluteY="80dp" />
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.099"
+        tools:ignore="MissingConstraints" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/displayBtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/display_songs"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="134dp"
-        tools:layout_editor_absoluteY="156dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.221"
+        tools:ignore="MissingConstraints" />
 
     <EditText
-        android:id="@+id/editTextText"
+        android:id="@+id/listTxt"
         android:layout_width="275dp"
         android:layout_height="159dp"
         android:autofillHints="List of Songs will Appear here"
@@ -53,14 +62,15 @@
         android:hint="@string/list_of_songs_will_appear_here"
         android:inputType="text"
         android:text=""
+        android:textSize="15sp"
         android:textAlignment="center"
-        android:textColor="#0000FF"
-        android:textColorHint="#0000FF"
+        android:textColor="#00FFFF"
+        android:textColorHint="#00FFFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.449" />
+        app:layout_constraintVertical_bias="0.421" />
 
     <Button
         android:id="@+id/addBtn"
@@ -79,7 +89,7 @@
         android:id="@+id/returnBtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Return to Main"
+        android:text="@string/return_to_main"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.505"
@@ -88,10 +98,10 @@
         app:layout_constraintVertical_bias="0.764" />
 
     <Button
-        android:id="@+id/exitBtn"
+        android:id="@+id/clearBtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/close_app"
+        android:text="@string/reset"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

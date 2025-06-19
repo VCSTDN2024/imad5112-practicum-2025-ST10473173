@@ -18,10 +18,10 @@ class MainActivity : AppCompatActivity() {
         val btnStart: Button = findViewById(R.id.startBtn) // Start button takes you to SecondActivity
         btnStart.setOnClickListener {
 
-            val intent = Intent(this, SecondActivity::class.java)
+            val intent = Intent(this, SecondActivity::class.java) // this function will move you from main screen to second screen.
             startActivity(intent)
         }
-        exitBtn.setOnClickListener {
+        exitBtn.setOnClickListener { // function wil close the app completely
             finishAffinity() }
     }
 }
