@@ -19,7 +19,7 @@ Purpose and Features
 
 Purpose
 
-The purpose of this app is to help people  
+The purpose of this app is to help people to manage their playlist, and also easy to find songs that they want to add into play list. It can also help them by making it easier for them to find songs fast that they dont know the name of the song  
 
 Key Features 
 
