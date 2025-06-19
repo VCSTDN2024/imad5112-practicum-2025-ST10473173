@@ -6,8 +6,11 @@
     <string name="add_to_playaylist">Add to Playlist</string>
     <string name="close_app">Close App</string>
     <string name="display_songs">Display songs</string>
-    <string name="list_of_songs_will_appear_here">List of Songs will Appear here</string>
+
     <string name="enter_song_title_here">Enter song title here</string>
     <string name="return_to_main">Return to Main</string>
     <string name="reset">Reset</string>
+    <string name="list_of_songs_will_appear_here">List of Songs will appear here</string>
+    <string name="display_all_details">Display All Details</string>
+    <string name="average_rating">Average Rating</string>
 </resources>
