@@ -99,8 +99,8 @@
 
     <Button
         android:id="@+id/fullDetailsBtn"
-        android:layout_width="171dp"
-        android:layout_height="42dp"
+        android:layout_width="184dp"
+        android:layout_height="51dp"
         android:text="@string/display_all_details"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
