@@ -13,6 +13,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
 
+        val exitBtn : Button = findViewById(R.id.exitBtn)  // Exit Button will make you close the app completely
 
         val btnStart: Button = findViewById(R.id.startBtn) // Start button takes you to SecondActivity
         btnStart.setOnClickListener {
@@ -20,6 +21,8 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this, SecondActivity::class.java)
             startActivity(intent)
         }
+        exitBtn.setOnClickListener {
+            finishAffinity() }
+    }
+}
 
-    }
-    }

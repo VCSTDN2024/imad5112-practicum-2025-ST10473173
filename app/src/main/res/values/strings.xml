@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">Music Playlist</string>
+    <string name="tasty_music">Tasty Music</string>
+    <string name="start">START</string>
+    <string name="exit">EXIT</string>
+    <string name="add_to_playaylist">Add to Playaylist</string>
+    <string name="close_app">Close App</string>
+    <string name="display_songs">Display songs</string>
 </resources>
