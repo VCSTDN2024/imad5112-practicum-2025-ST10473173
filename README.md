@@ -85,7 +85,9 @@ Figure. 1.Main Screen
 Second screen after they press start:
 
 Step 1: First you will enter the Song Title.
+
 Step 2: You will press the Display button.
+
 Step 3: A list of songs will appear in the textBox.
 Step 4: you can choose to add it to playlist.
 Step 5: you can return to the main screen.
