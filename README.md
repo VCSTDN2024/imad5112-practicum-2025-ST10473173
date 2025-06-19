@@ -71,6 +71,7 @@ Screenshots
 What the user will see when the start up the app: 
 
 Step 1: Press Start to move to the second screen.
+
 Step 2: Press Exit to exit the app.
 
 
