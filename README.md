@@ -79,6 +79,7 @@ Step 1: Press Start to move to the second screen.
 
 Step 2: Press Exit to exit the app.
 
+![main screen](https://github.com/user-attachments/assets/26ecfd7f-7735-4472-9c37-3e0eeaddf4ac)
 
 
 Figure. 1.Main Screen
@@ -100,6 +101,7 @@ Step 4: you can choose to add it to playlist.
 Step 5: you can return to the main screen.
 
 Step 6: You can use the reset button to clear the information.
+![Screenshot 2025-06-19 132058](https://github.com/user-attachments/assets/f82ee4ef-f9cc-498d-b460-d9af03a37ba1)
 
 
 Figure. 2. Second Screen
@@ -114,15 +116,9 @@ Step 1: Users can press “Display song” to see the songs available.
 
 Step 2: user can input the song title in the edit text to add to playlist.
 
+![display songs](https://github.com/user-attachments/assets/2fc0e428-ff49-46c0-bdce-71f52a927374)
 
 Figure. 3.Display Songs
-
-
-
-
-
-
-
 
 
 When you insert a song Then press average rating, the app will calculate the rating for you:
@@ -131,27 +127,26 @@ Step 1: User can enter song title in edit text
 
 Step 2: User can the press average rating to receive rating of the song 
 
+![average rating of song](https://github.com/user-attachments/assets/8dfae8a6-ce10-493b-829a-3c886dd5eb82)
+
 Figure. 4.Average rating
-
-
-
-
-
 
  The full detail button will show full details of song , rating and comments:
 
 Step 1: user can press full detail to get all information about the songs
 
+![full details](https://github.com/user-attachments/assets/ccb735a7-b132-4af4-8742-c46147d820a3)
+
 Figure. 5. Full details Button 
-
-
-
 
 The add to playlist button adds songs to the playlist based on what song title the user has entered:
 
 Step 1: First enter title of song 
 
 Step 2: the press the button to add to playlist
+
+![song added](https://github.com/user-attachments/assets/82747972-cd72-4271-9b1c-993cbb5fa072)
+
 
 Figure. 6.Add to playlist
 
